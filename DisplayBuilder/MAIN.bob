@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle</name>
+    <width>830</width>
+    <height>60</height>
+    <line_width>1</line_width>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>IFCFASTINT DEMO</text>
+    <x>30</x>
+    <y>10</y>
+    <width>210</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box</name>
+    <pv_name>loc://IFCFastIntDeviceName("IFCFASTINT")</pv_name>
+    <x>290</x>
+    <y>10</y>
+    <width>190</width>
+    <height>40</height>
+    <items>
+      <item>IFCFASTINT</item>
+    </items>
+    <items_from_pv>false</items_from_pv>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <file>FIM_ioccontrol.bob</file>
+    <macros>
+      <IFCFastIntDevice2Macro>IFCFASTINT</IFCFastIntDevice2Macro>
+    </macros>
+    <y>60</y>
+    <width>404</width>
+    <height>902</height>
+    <resize>2</resize>
+    <rules>
+      <rule name="clearOPIRule" prop_id="file" out_exp="false">
+        <exp bool_exp="true">
+          <value></value>
+        </exp>
+        <pv_name>loc://IFCFastIntDeviceName</pv_name>
+      </rule>
+      <rule name="setOPIRule" prop_id="file" out_exp="false">
+        <exp bool_exp="true">
+          <value>FIM_ioccontrol.bob</value>
+        </exp>
+        <pv_name>loc://IFCFastIntDeviceName</pv_name>
+      </rule>
+    </rules>
+    <scripts>
+      <script file="Scripts/Device2Macro.js">
+        <pv_name>loc://IFCFastIntDeviceName</pv_name>
+      </script>
+    </scripts>
+  </widget>
+</display>

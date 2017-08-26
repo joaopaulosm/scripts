@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <width>402</width>
+  <height>900</height>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_13</name>
+    <width>400</width>
+    <height>890</height>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Background" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_11</name>
+    <x>10</x>
+    <y>650</y>
+    <width>380</width>
+    <height>160</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="PRIMARY-LIGHT" red="151" green="188" blue="202">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_10</name>
+    <x>10</x>
+    <y>450</y>
+    <width>380</width>
+    <height>180</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="PRIMARY-LIGHT" red="151" green="188" blue="202">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_9</name>
+    <x>10</x>
+    <y>140</y>
+    <width>380</width>
+    <height>290</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="PRIMARY-LIGHT" red="151" green="188" blue="202">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_8</name>
+    <x>10</x>
+    <y>20</y>
+    <width>380</width>
+    <height>100</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="PRIMARY-LIGHT" red="151" green="188" blue="202">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>IOC Execution Control</text>
+    <x>80</x>
+    <y>10</y>
+    <width>220</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>DAQ Configuration</text>
+    <x>80</x>
+    <y>130</y>
+    <width>220</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>RF-FIM Control</text>
+    <x>90</x>
+    <y>440</y>
+    <width>220</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>History Mode Configuration</text>
+    <x>50</x>
+    <y>640</y>
+    <width>280</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="18.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>OFF</value>
+        <description>Write OFF to IOC State Machine</description>
+      </action>
+    </actions>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-STAT</pv_name>
+    <text>OFF</text>
+    <x>30</x>
+    <y>45</y>
+    <height>25</height>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>ON</value>
+        <description>Write ON to IOC State Machine</description>
+      </action>
+    </actions>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-STAT</pv_name>
+    <text>ON</text>
+    <x>145</x>
+    <y>45</y>
+    <height>25</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_2</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>RUNNING</value>
+        <description>Write RUNNING to IOC State Machine</description>
+      </action>
+    </actions>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-STAT</pv_name>
+    <text>RUNNING</text>
+    <x>260</x>
+    <y>45</y>
+    <height>25</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-STAT-RB</pv_name>
+    <x>190</x>
+    <y>80</y>
+    <width>90</width>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-FREQ-RB</pv_name>
+    <x>260</x>
+    <y>170</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box_2</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-FREQ</pv_name>
+    <x>150</x>
+    <y>170</y>
+    <width>95</width>
+    <height>20</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>FSM Freq.</text>
+    <x>60</x>
+    <y>170</y>
+    <width>80</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>Current State</text>
+    <x>50</x>
+    <y>80</y>
+    <width>130</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI0-SRAT</pv_name>
+    <x>150</x>
+    <y>230</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI0-SRAT-RB</pv_name>
+    <x>260</x>
+    <y>230</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_18</name>
+    <text>Sample Rate</text>
+    <x>20</x>
+    <y>230</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_19</name>
+    <class>COMMENT</class>
+    <text>Readback values</text>
+    <x>270</x>
+    <y>150</y>
+    <width>130</width>
+    <font use_class="true">
+      <font name="Comment" family="Liberation Sans" style="ITALIC" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <transparent use_class="true">true</transparent>
+    <vertical_alignment>2</vertical_alignment>
+    <wrap_words use_class="true">true</wrap_words>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_1</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI0-CLKS</pv_name>
+    <x>150</x>
+    <y>250</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI0-CLKS-RB</pv_name>
+    <x>260</x>
+    <y>250</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_20</name>
+    <text>Clock Source</text>
+    <x>20</x>
+    <y>250</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_2</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI0-CLKF</pv_name>
+    <x>150</x>
+    <y>270</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI0-CLKF-RB</pv_name>
+    <x>260</x>
+    <y>270</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_21</name>
+    <text>Clock Frequency</text>
+    <x>20</x>
+    <y>270</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_3</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI0-CLKD</pv_name>
+    <x>150</x>
+    <y>290</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_7</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI0-CLKD-RB</pv_name>
+    <x>260</x>
+    <y>290</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_22</name>
+    <text>Clock Divisor</text>
+    <x>20</x>
+    <y>290</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_4</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI1-SRAT</pv_name>
+    <x>150</x>
+    <y>327</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_8</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI1-SRAT-RB</pv_name>
+    <x>260</x>
+    <y>327</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_23</name>
+    <text>Sample Rate</text>
+    <x>20</x>
+    <y>327</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_5</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI1-CLKS</pv_name>
+    <x>150</x>
+    <y>347</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_9</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI1-CLKS-RB</pv_name>
+    <x>260</x>
+    <y>347</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_24</name>
+    <text>Clock Source</text>
+    <x>20</x>
+    <y>347</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_6</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI1-CLKF</pv_name>
+    <x>150</x>
+    <y>367</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_10</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI1-CLKF-RB</pv_name>
+    <x>260</x>
+    <y>367</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_25</name>
+    <text>Clock Frequency</text>
+    <x>20</x>
+    <y>367</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_7</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI1-CLKD</pv_name>
+    <x>150</x>
+    <y>387</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_11</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-AI1-CLKD-RB</pv_name>
+    <x>260</x>
+    <y>387</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_26</name>
+    <text>Clock Divisor</text>
+    <x>20</x>
+    <y>387</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>Text Entry_8</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-SMNM</pv_name>
+    <x>150</x>
+    <y>190</y>
+    <width>95</width>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_12</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-SMNM-RB</pv_name>
+    <x>260</x>
+    <y>190</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_28</name>
+    <text>Sample Count</text>
+    <x>20</x>
+    <y>190</y>
+    <width>120</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_29</name>
+    <text>Debug Message</text>
+    <x>30</x>
+    <y>840</y>
+    <width>130</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>PRE</value>
+        <description>Go to PRE state</description>
+      </action>
+    </actions>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-MSGS {"longString":true}</pv_name>
+    <text>PRE</text>
+    <x>30</x>
+    <y>480</y>
+    <width>70</width>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_4</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>RUN</value>
+        <description>Go to RUN state</description>
+      </action>
+    </actions>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-MSGS {"longString":true}</pv_name>
+    <text>RUN</text>
+    <x>110</x>
+    <y>480</y>
+    <width>70</width>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-OUT0</pv_name>
+    <x>30</x>
+    <y>510</y>
+    <width>70</width>
+    <height>30</height>
+    <off_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </off_color>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-OUT1</pv_name>
+    <x>110</x>
+    <y>510</y>
+    <width>70</width>
+    <height>30</height>
+    <off_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </off_color>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_2</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-OUT2</pv_name>
+    <x>190</x>
+    <y>510</y>
+    <width>70</width>
+    <height>30</height>
+    <off_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </off_color>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_3</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-OUT3</pv_name>
+    <x>270</x>
+    <y>510</y>
+    <width>70</width>
+    <height>30</height>
+    <off_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0">
+      </color>
+    </on_color>
+    <square>true</square>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_30</name>
+    <class>COMMENT</class>
+    <text>OUT0</text>
+    <x>40</x>
+    <y>540</y>
+    <width>40</width>
+    <font use_class="true">
+      <font name="Comment" family="Liberation Sans" style="ITALIC" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <vertical_alignment>2</vertical_alignment>
+    <wrap_words use_class="true">true</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_31</name>
+    <class>COMMENT</class>
+    <text>OUT1</text>
+    <x>120</x>
+    <y>540</y>
+    <width>40</width>
+    <font use_class="true">
+      <font name="Comment" family="Liberation Sans" style="ITALIC" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <vertical_alignment>2</vertical_alignment>
+    <wrap_words use_class="true">true</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_32</name>
+    <class>COMMENT</class>
+    <text>OUT2</text>
+    <x>200</x>
+    <y>540</y>
+    <width>40</width>
+    <font use_class="true">
+      <font name="Comment" family="Liberation Sans" style="ITALIC" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <vertical_alignment>2</vertical_alignment>
+    <wrap_words use_class="true">true</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_33</name>
+    <class>COMMENT</class>
+    <text>OUT3</text>
+    <x>280</x>
+    <y>540</y>
+    <width>40</width>
+    <font use_class="true">
+      <font name="Comment" family="Liberation Sans" style="ITALIC" size="14.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <vertical_alignment>2</vertical_alignment>
+    <wrap_words use_class="true">true</wrap_words>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_4</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-PP-LOCK-RB</pv_name>
+    <x>350</x>
+    <y>470</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_34</name>
+    <text>PP Lock</text>
+    <x>280</x>
+    <y>470</y>
+    <width>60</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_35</name>
+    <text>HIST Mode</text>
+    <x>30</x>
+    <y>710</y>
+    <width>80</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="combo" version="2.0.0">
+    <name>Combo Box_3</name>
+    <x>120</x>
+    <y>710</y>
+    <width>95</width>
+    <height>20</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_13</name>
+    <x>230</x>
+    <y>710</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_1</name>
+    <x>150</x>
+    <y>680</y>
+    <width>70</width>
+    <height>20</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_36</name>
+    <text>HIST Enable</text>
+    <x>20</x>
+    <y>680</y>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_5</name>
+    <x>230</x>
+    <y>680</y>
+    <width>60</width>
+    <off_label>Disabled</off_label>
+    <off_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </off_color>
+    <on_label>Enabled</on_label>
+    <square>true</square>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_37</name>
+    <text>Hist. Over</text>
+    <x>70</x>
+    <y>740</y>
+    <width>68</width>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_6</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-PP-LOCK-RB</pv_name>
+    <x>148</x>
+    <y>740</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_38</name>
+    <text>Hist. Ring Over</text>
+    <x>180</x>
+    <y>740</y>
+    <width>98</width>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_7</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-PP-LOCK-RB</pv_name>
+    <x>288</x>
+    <y>740</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_39</name>
+    <text>History Acquisiton Status</text>
+    <x>30</x>
+    <y>770</y>
+    <width>180</width>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_14</name>
+    <x>230</x>
+    <y>770</y>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_15</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-INFO</pv_name>
+    <x>168</x>
+    <y>845</y>
+    <width>202</width>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_12</name>
+    <x>10</x>
+    <y>830</y>
+    <width>380</width>
+    <height>50</height>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="PRIMARY-LIGHT" red="151" green="188" blue="202">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_5</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>ABORT</value>
+        <description>Force ABORT state</description>
+      </action>
+    </actions>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-MSGS {"longString":true}</pv_name>
+    <text>ABORT</text>
+    <x>30</x>
+    <y>570</y>
+    <width>70</width>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_6</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>IDLE</value>
+        <description>Go to IDLE state</description>
+      </action>
+    </actions>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-MSGS {"longString":true}</pv_name>
+    <text>IDLE</text>
+    <x>110</x>
+    <y>570</y>
+    <width>70</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_40</name>
+    <text>Current State</text>
+    <x>190</x>
+    <y>575</y>
+    <width>90</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </foreground_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_16</name>
+    <pv_name>${IFCFastIntDevice2Macro}:FSM-INTS-RB</pv_name>
+    <x>290</x>
+    <y>575</y>
+    <width>80</width>
+    <foreground_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="PRIMARY-DARK" red="31" green="83" blue="102">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>
