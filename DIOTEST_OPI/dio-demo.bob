@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <width>1400</width>
+  <height>400</height>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <class>TITLE</class>
+    <text>DIO3118 TEST</text>
+    <x use_class="true">0</x>
+    <y use_class="true">0</y>
+    <width>550</width>
+    <height>31</height>
+    <font use_class="true">
+      <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
+      </font>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25">
+      </color>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>DIODEMO:DI-CH0-INPUT</pv_name>
+    <x>40</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_2</name>
+    <pv_name>DIODEMO:DI-CH1-INPUT</pv_name>
+    <x>114</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_3</name>
+    <pv_name>DIODEMO:DI-CH2-INPUT</pv_name>
+    <x>189</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_4</name>
+    <pv_name>DIODEMO:DI-CH3-INPUT</pv_name>
+    <x>264</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_6</name>
+    <pv_name>DIODEMO:DI-CH4-INPUT</pv_name>
+    <x>339</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_7</name>
+    <pv_name>DIODEMO:DI-CH5-INPUT</pv_name>
+    <x>414</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_8</name>
+    <pv_name>DIODEMO:DI-CH6-INPUT</pv_name>
+    <x>489</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_9</name>
+    <pv_name>DIODEMO:DI-CH7-INPUT</pv_name>
+    <x>564</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_10</name>
+    <pv_name>DIODEMO:DI-CH8-INPUT</pv_name>
+    <x>639</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_11</name>
+    <pv_name>DIODEMO:DI-CH9-INPUT</pv_name>
+    <x>713</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_12</name>
+    <pv_name>DIODEMO:DI-CH10-INPUT</pv_name>
+    <x>788</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_13</name>
+    <pv_name>DIODEMO:DI-CH11-INPUT</pv_name>
+    <x>863</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_14</name>
+    <pv_name>DIODEMO:DI-CH12-INPUT</pv_name>
+    <x>938</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_15</name>
+    <pv_name>DIODEMO:DI-CH13-INPUT</pv_name>
+    <x>1013</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_16</name>
+    <pv_name>DIODEMO:DI-CH14-INPUT</pv_name>
+    <x>1088</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_17</name>
+    <pv_name>DIODEMO:DI-CH15-INPUT</pv_name>
+    <x>1163</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_21</name>
+    <pv_name>DIODEMO:DI-CH20-INPUT</pv_name>
+    <x>1270</x>
+    <y>190</y>
+    <width>70</width>
+    <height>30</height>
+    <square>true</square>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>CH0</text>
+    <x>60</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>CH1</text>
+    <x>134</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>CH2</text>
+    <x>209</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>CH3</text>
+    <x>284</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>CH4</text>
+    <x>358</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>CH5</text>
+    <x>433</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>CH6</text>
+    <x>508</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <text>CH7</text>
+    <x>583</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <text>CH8</text>
+    <x>658</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_10</name>
+    <text>CH9</text>
+    <x>732</x>
+    <y>160</y>
+    <width>30</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_11</name>
+    <text>CH10</text>
+    <x>803</x>
+    <y>160</y>
+    <width>36</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>CH11</text>
+    <x>878</x>
+    <y>160</y>
+    <width>36</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>CH12</text>
+    <x>952</x>
+    <y>160</y>
+    <width>36</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>CH13</text>
+    <x>1026</x>
+    <y>160</y>
+    <width>36</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_15</name>
+    <text>CH14</text>
+    <x>1101</x>
+    <y>160</y>
+    <width>36</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_16</name>
+    <text>CH15</text>
+    <x>1175</x>
+    <y>160</y>
+    <width>36</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_20</name>
+    <text>CH20</text>
+    <x>1282</x>
+    <y>160</y>
+    <width>36</width>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_1</name>
+    <pv_name>DIODEMO:DO-CH1-OUTPUT</pv_name>
+    <x>113</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_2</name>
+    <pv_name>DIODEMO:DO-CH2-OUTPUT</pv_name>
+    <x>188</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_3</name>
+    <pv_name>DIODEMO:DO-CH3-OUTPUT</pv_name>
+    <x>263</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_4</name>
+    <pv_name>DIODEMO:DO-CH4-OUTPUT</pv_name>
+    <x>338</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_5</name>
+    <pv_name>DIODEMO:DO-CH5-OUTPUT</pv_name>
+    <x>413</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_6</name>
+    <pv_name>DIODEMO:DO-CH6-OUTPUT</pv_name>
+    <x>488</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_7</name>
+    <pv_name>DIODEMO:DO-CH7-OUTPUT</pv_name>
+    <x>563</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_8</name>
+    <pv_name>DIODEMO:DO-CH8-OUTPUT</pv_name>
+    <x>638</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_9</name>
+    <pv_name>DIODEMO:DO-CH9-OUTPUT</pv_name>
+    <x>713</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_10</name>
+    <pv_name>DIODEMO:DO-CH10-OUTPUT</pv_name>
+    <x>788</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_11</name>
+    <pv_name>DIODEMO:DO-CH11-OUTPUT</pv_name>
+    <x>863</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_12</name>
+    <pv_name>DIODEMO:DO-CH12-OUTPUT</pv_name>
+    <x>938</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_13</name>
+    <pv_name>DIODEMO:DO-CH13-OUTPUT</pv_name>
+    <x>1013</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_14</name>
+    <pv_name>DIODEMO:DO-CH14-OUTPUT</pv_name>
+    <x>1088</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_15</name>
+    <pv_name>DIODEMO:DO-CH15-OUTPUT</pv_name>
+    <x>1163</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button_19</name>
+    <pv_name>DIODEMO:DO-CH20-OUTPUT</pv_name>
+    <x>1270</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+  </widget>
+  <widget type="bool_button" version="2.0.0">
+    <name>Boolean Button</name>
+    <pv_name>DIODEMO:DO-CH0-OUTPUT</pv_name>
+    <x>40</x>
+    <y>110</y>
+    <width>70</width>
+    <height>40</height>
+    <tooltip>DIODEMO:DO-CH0-OUTPUT
+VString[No PV, 1970/01/01 01:00:00.000]</tooltip>
+  </widget>
+</display>
